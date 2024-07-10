@@ -348,6 +348,7 @@ iframe{
     gap: 24px;
     width: 1140px;
     height: 299px;
+    margin-bottom: 49px;
 }
 
 .target{
@@ -397,4 +398,74 @@ iframe{
     border: none;
     background: none;
     text-align: left;
+}
+/* I need support section */
+.support-container{
+    width: 1140px;
+    height: 313px;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    margin-top: 200px;
+    background-image: url('../images/handshake.jpg');
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+}
+
+.support-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.support-content h4{
+    width: 292px;
+    height: 36px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 64px;
+}
+.support-content p{
+    width: 606px;
+    height: 52px;
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 16px;
+
+}
+.support-form{
+    margin-top: 24px;
+}
+.support-form input[type="text"]{
+    width: 548px;
+    height: 57px;
+    padding: 19px 20px 19px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+.support-form input[type="submit"]{
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 17px 20px 17px 20px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
 }
