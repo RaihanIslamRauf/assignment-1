@@ -412,6 +412,7 @@ iframe{
     background-blend-mode: overlay;
     background-position: center;
     background-size: cover;
+    margin-bottom: 80px;
 }
 
 .support-content{
@@ -468,4 +469,51 @@ iframe{
     font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
+}
+
+/* footer section */
+.footer-container{
+    width: 1519px;
+    height: 100px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    position: absolute;
+
+}
+
+.footer-content {
+    width: 1140px;
+    height: 36px;
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-left: 150px;
+    margin-bottom: 32px;
+}
+
+.footer-content h5{
+    width: 456px;
+    height: 23px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-container .social-icons{
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    margin-right: 150px;
+    margin-bottom: 32px;
+    position: relative;
+    left: -5%;
+    width: 157.01px;
+    height: 36px;
+    gap:24px;
 }
